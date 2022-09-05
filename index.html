@@ -6,24 +6,26 @@
 
   <title>Huddle landing page with curved sections</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
 
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
-    <section class="header__Top">
+    <div class="header__Top">
       <img class="header__Top--Logo" src="images/logo.svg" alt="">
       <button class="header__Top--Btn">Try it free</button>
-    </section>
+    </div>
     <section class="header__Main">
       <h1 class="header__Main--Header">Build The Community Your Fans Will Love</h1>
       <p class="header__Main--Paragraph">Huddle re-imagines the way we build communities. You have a voice, but so does 
@@ -32,16 +34,26 @@
     </section>
   </header>
 
+  <!-- Main -->
   <main class="main">
+
+    <!-- Section of statistics -->
     <section class="statistics">
+      <!-- Main image -->
       <img class="statistics__Mockup" src="images/screen-mockups.svg" alt="">
       <div class="statistics__Container">
+
+        <!-- Single statistic -->
         <div class="statistics__Single">
+          <!-- Small Icon above number -->
           <img class="statistics__Single--Img" src="images/icon-communities.svg" alt="">
           <h2 class="statistics__Single--Header">1.4k+</h2>
           <p class="statistics__Single--Paragraph">Communities Formed</p>
         </div>
+
+        <!-- Single statistic -->
         <div class="statistics__Single">
+          <!-- Small Icon above number -->
           <img class="statistics__Single--Img" src="images/icon-messages.svg" alt="">
           <h2 class="statistics__Single--Header">2.7m+</h2>
           <p class="statistics__Single--Paragraph">Messages Sent</p>
@@ -49,7 +61,11 @@
       </div>
     </section>
 
+    <!-- Section of description -->
     <section class="introduction">
+
+      <!-- First description -->
+      <!-- IMG of wavy background -->
       <div class="first__Top"></div>
       <div class="introduction__Single first">
         <img class="introduction__Single--Img" src="images/illustration-grow-together.svg" alt="">
@@ -59,8 +75,10 @@
           Think of the insightful conversations you miss out on with a  feedback form. </p>
         </div>
       </div>
+      <!-- IMG of wavy background -->
       <div class="first__Bottom"></div>
 
+      <!-- Second description -->
       <div class="introduction__Single">
         <img class="introduction__Single--Img" src="images/illustration-flowing-conversation.svg" alt="">
         <div class="introduction__SingleContainer">
@@ -70,6 +88,8 @@
         </div>
       </div>
 
+      <!-- Third description -->
+      <!-- IMG of wavy background -->
       <div class="third__Top"></div>
       <div class="introduction__Single third">
         <img class="introduction__Single--Img" src="images/illustration-your-users.svg" alt="">
@@ -79,29 +99,35 @@
             once signed in to your app, your users can start chatting immediately.</p>
         </div>   
       </div>
+      <!-- IMG of wavy background -->
       <div class="third__Bottom"></div>
     </section>
 
+    <!-- Section of "Get started for free" -->
     <section class="getStarted">
       <h2 class="getStarted__Header">Ready To Build Your Community?</h2>
       <button class="getStarted__Btn">Get Started For Free</button>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
+    <!-- Image of wavy background -->
     <div class="footer__TopImg"></div>
     <div class="footer__Container">
+      <!-- Section of newsletter -->
       <section class="newsletter">
         <h2 class="newsletter__Header">Newsletter</h2>
         <p class="newsletter__Paragraph">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
           send you spam or pass on your email address</p>
-        <form action="" class="newsletter__Form">
-          <input class="newsletter__Form--Input" type="text" name="" id="">
+        <form action="#" class="newsletter__Form">
+          <input class="newsletter__Form--Input" type="text">
           <button class="newsletter__Form--Btn">Subscribe</button>
         </form>
       </section>
   
-      <section class="contact">
+      <!-- Section of contact/socials -->
+      <div class="contact">
         <img class="contact__Img" src="images/logo2.svg" alt="">
         <p class="contact__Paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
         vestibulum a, ultrices quis sem.</p>
@@ -118,7 +144,7 @@
           <a href="#"><img class="social__Img" src="images/logo-instagram.svg" alt=""></a>
           <a href="#"><img class="social__Img" src="images/logo-twitter.svg" alt=""></a>
         </div>
-      </section>
+      </div>
     </div>
   </footer>  
 </body>
